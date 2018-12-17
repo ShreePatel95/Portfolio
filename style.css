@@ -97,6 +97,34 @@ header{
     height: 180px;
 }
 
+#Experience{
+    border-top: 2px solid #e2ff3b;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.skill-tiles{
+    display: flex;
+    justify-content: center;
+}
+
+.skill-tiles p{
+    padding: 10px;
+    margin: 10px;
+}
+
+.skill-tiles p:nth-child(odd){
+    background: #ff2b83;
+    color: white;
+    border-radius: 5px;
+}
+
+.skill-tiles p:nth-child(even){
+    background: #e2ff3b;
+    color: black;
+    border-radius: 5px;
+}
 
 #contactMe{
     padding-top: 30px;
@@ -148,6 +176,7 @@ footer a:hover{
 
 #welcome-section,
 #projects,
+#Experience,
 #contactMe,
 footer{
     text-align: center;
