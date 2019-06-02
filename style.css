@@ -1,11 +1,12 @@
 body{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-/* hex-code colors: lime green #e2ff3b sea-green: #3bff73 pink: #ff3b83 */
+/* hex-code color: neutral: #faf4e1 yellow: #fabc41 orange: #ec9454 berry: #c72767; */
+
 #navbar{
     padding-left: 20px;
     padding-right: 20px;
@@ -24,35 +25,51 @@ body{
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    color: black;
+    color: #ECA7C4;
 }
 
 #navbar a:hover{
     color: white;
-    background-color: #ff2b83;
+    background-color: #fabc41;
 }
 
 #navbar li{
     list-style-type:none;
-    padding-top: 10px;
-    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     
 }
 
 header{
-    background: #e2ff3b;
+    background: #c72767;
     margin: 0;
     position: fixed;
     width: 100%;
 }
 #welcome-section{
-    background: #e2ff3b;
+    background: linear-gradient(#c72767 30%, #ec9454);
     margin: 0 auto;
-    padding-top: 40vh;
-    min-height: 60vh;
-    
+    padding-top: 35vh;
+    min-height: 65vh;
+}
+
+#welcome-section h1{
+    font-weight: bold;
+    font-size: 70px;
+    margin: 0;
+    color: #F3C0CE;
+}
+
+#welcome-section h2{
+    margin: 0;
+    font-size: 25px;
+    color: #EA8B98;
+    font-weight: 400;
+}
+
+#welcome-section p{
+    font-size: 20px;
+    margin: 0;
 }
 #aboutMe{
     padding: 50px 0;
@@ -160,7 +177,7 @@ header{
 
 
 footer{
-    background: #ff3b83;
+    background: #ec9454;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
