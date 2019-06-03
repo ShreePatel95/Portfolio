@@ -1,8 +1,27 @@
+/* RESET */
+html, body, section, h1, h2, h3, a, ol, ul, li, div, span, figure, figcaption, footer, header, nav, p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    font: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    box-sizing: inherit;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+
 body{
     font-family: 'Heebo', sans-serif;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
 }
 
 /* hex-code color: neutral: #faf4e1 yellow: #fabc41 orange: #ec9454 berry: #c72767; */
@@ -17,6 +36,8 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
+    padding-bottom: 20px;
+    display: none;
 
 }
 #navbar a{
@@ -42,6 +63,27 @@ body{
     
 }
 
+.navbar-mobile{
+    padding: 20px;
+    position: relative;
+}
+
+.nav-hamburger-button{
+    cursor: pointer;
+    display: inline;
+}
+
+.nav-hamburger-button:hover .hamburger-dropdown{
+    display: block;
+}
+
+.hamburger-dropdown{
+    display: none;
+    position: absolute;
+    background: white;
+    width: 200px;
+    top: 50px;
+}
 
 header{
     background: #c72767;
@@ -230,6 +272,22 @@ footer{
         line-height: 100px;     
      
     }
+
+    #navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.navbar-mobile{
+    padding: 20px;
+    position: relative;
+    display: none;
+}
 
 }
 
