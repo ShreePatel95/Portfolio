@@ -26,11 +26,13 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     color: #ECA7C4;
+    border-radius: 5px;
+    transition: background-color ease-out .5s;
 }
 
 #navbar a:hover{
     color: white;
-    background-color: #fabc41;
+    background-color: #ec9454;
 }
 
 #navbar li{
@@ -40,6 +42,7 @@ body{
     
 }
 
+
 header{
     background: #c72767;
     margin: 0;
@@ -47,7 +50,7 @@ header{
     width: 100%;
 }
 #welcome-section{
-    background: linear-gradient(#c72767 30%, #ec9454);
+    background: linear-gradient(#c72767 30%, #fabc41);
     margin: 0 auto;
     padding-top: 35vh;
     min-height: 65vh;
@@ -67,10 +70,11 @@ header{
     font-weight: 400;
 }
 
-#welcome-section p{
+.fa-bars{
+    color: #ECA7C4;
     font-size: 20px;
-    margin: 0;
 }
+
 #aboutMe{
     padding: 50px 0;
     width: 70%;
