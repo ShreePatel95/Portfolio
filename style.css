@@ -125,39 +125,49 @@ header{
     margin: 0 auto;
 }
 
-#projects{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    padding-top: 30px;
+
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    color: #19050D;
 }
 
-.project-tile{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.project-img-text,
+.project-text-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.project-tile a{
-    text-decoration: none;
-    margin: 40px 100px;
-    height: 210px;
-    width: 280px;
-    color: black;
-}
-
-.project-tile span{
-    width: 280px;
-}
-
-.project-tile a:hover{
-    color: #ff2b83;
-}
-
-.project-name img{
+.project-img-text a,
+.project-text-img a{
     width: 100%;
-    height: 180px;
+    height: 100%;
+
+}
+
+.project-text{
+    background: #19050D;
+    padding: 20px 90px;
+    text-align: left;
+}
+
+.project-text h4{
+    color: #F8E4EC;
+    font-size: 30px;
+}
+
+.project-text p{
+    color: #BE97A7;
+}
+
+.project-img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    border: 0;
 }
 
 #Experience{
@@ -223,7 +233,7 @@ header{
 
 
 footer{
-    background: #ec9454;
+    background: #c72767;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
