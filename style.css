@@ -132,13 +132,16 @@ h3{
     text-align: center;
     padding: 20px;
     margin: 10px;
-    color: #19050D;
+    color: #1F1E1C;
 }
+
 
 .project-img-text,
 .project-text-img{
     display: grid;
+    grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
+    margin: 10px;
 }
 
 .project-img-text a,
@@ -148,19 +151,30 @@ h3{
 
 }
 
+
 .project-text{
-    background: #19050D;
-    padding: 20px 90px;
+    padding: 60px 90px;
     text-align: left;
 }
 
 .project-text h4{
     color: #F8E4EC;
     font-size: 30px;
+    margin: 0;
 }
 
 .project-text p{
     color: #BE97A7;
+    padding-bottom: 10px;
+}
+
+.live-link{
+
+    border: 1px solid white;
+}
+
+.code-link{
+    color: white;
 }
 
 .project-img{
@@ -170,82 +184,50 @@ h3{
     border: 0;
 }
 
-#Experience{
-    border-top: 2px solid #e2ff3b;
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 50px;
+.contact-section{
+    background: #fabc41;
+    padding: 50px;
 }
 
-.skill-tiles{
-    display: flex;
-    justify-content: center;
-}
-
-.skill-tiles p{
-    padding: 10px;
-    margin: 10px;
-}
-
-.skill-tiles p:nth-child(odd){
-    background: #ff2b83;
-    color: white;
-    border-radius: 5px;
-}
-
-.skill-tiles p:nth-child(even){
-    background: #e2ff3b;
-    color: black;
-    border-radius: 5px;
+.contact-section h3{
+    color: #faf4e1;
 }
 
 #contactMe{
     padding-top: 30px;
     padding-bottom: 50px;
-    
 }
 
-#contactMe h3{
-    text-decoration: underline;
-}
 
 .social-links{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-.social-item{
-    padding-left: 10px;
-    padding-right: 10px;
+.social-links i{
+    font-size: 80px;
+    color: #FCEEF4;
 }
 
-.social-item-link{
-    text-decoration: none;
-    color: black;
+.email{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #faf4e1;
 }
-
-
-.icons{
-    padding-top: 10px;
-}
-
-
 
 footer{
-    background: #c72767;
+    background: #ec9454;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+    font-size: 10px;
 }
 
-footer a{
-    color: white;
-}
-
-footer a:hover{
-    color: black;
-}
 
 #welcome-section,
 #projects,
