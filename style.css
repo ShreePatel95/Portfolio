@@ -100,14 +100,14 @@ header{
 
 #welcome-section h1{
     font-weight: bold;
-    font-size: 70px;
+    font-size: 40px;
     margin: 0;
     color: #F9E5EB;
 }
 
 #welcome-section h2{
     margin: 0;
-    font-size: 25px;
+    font-size: 20px;
     color: #F7C8CE;
     font-weight: 400;
 }
@@ -146,8 +146,8 @@ h3{
 
 
 .project-text{
-    padding: 60px 90px;
-    text-align: left;
+    padding: 40px 40px;
+    text-align: center;
 }
 
 .project-text h4{
@@ -194,10 +194,11 @@ h3{
 
 .contact-section h3{
     color: #faf4e1;
+    font-size: 20px;
 }
 
 #contactMe{
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 
@@ -212,13 +213,13 @@ h3{
 }
 
 .social-links i{
-    font-size: 80px;
+    font-size: 20px;
     color: #FCEEF4;
 }
 
 .email{
     text-align: center;
-    font-size: 35px;
+    font-size: 16px;
     font-weight: 700;
     color: #faf4e1;
 }
@@ -250,10 +251,51 @@ footer{
      
     }
 
+    #welcome-section h1{
+        font-size: 70px;
+    }
+
+    #welcome-section h2{
+        font-size: 25px;
+    }
+
+    .project-text{
+        padding: 60px 90px;
+        text-align: left;
+    }
+
+
+    .contact-section h3{
+        font-size: 25px;
+    }
+
+    
+
+    .social-links{
+        padding: 20px;
+    }
+
+    .social-links i{
+        font-size: 35px;
+    }
+
+    .email{
+        font-size: 25px;
+    }
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media(min-width: 768px){
+    #welcome-section h1{
+        font-size: 70px;
+    }
+
+    #welcome-section h2{
+        font-size: 25px;
+    }
+
 
     .socialLinks{
         flex-direction: row;
@@ -292,6 +334,23 @@ footer{
         margin: 10px;
     }
 
+    .contact-section h3{
+        color: #faf4e1;
+        font-size: 40px;
+    }
+
+    .social-links{
+        max-width: 900px;
+        padding: 50px;
+    }
+
+    .social-links i{
+        font-size: 80px;
+    }
+
+    .email{
+        font-size: 35px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
