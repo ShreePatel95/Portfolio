@@ -80,9 +80,12 @@ body{
 .hamburger-dropdown{
     display: none;
     position: absolute;
-    background: white;
+    background: #DC5289;
+    border: 1px solid #ECA7C4;
+    padding: 10px;
     width: 200px;
     top: 50px;
+    color: #F8DEE9;
 }
 
 header{
@@ -168,7 +171,7 @@ h3{
 
 .live-link{
     background: #c72767;
-    color: white;
+    color: #F8DEE9;
     padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid #c72767;
