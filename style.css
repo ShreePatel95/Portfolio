@@ -80,14 +80,25 @@ body{
 .hamburger-dropdown{
     display: none;
     position: absolute;
-    background: #DC5289;
-    border: 1px solid #ECA7C4;
+    background: #FDFBF2;
+    border: 1px solid #faf4e1;
     padding: 10px;
     width: 200px;
     top: 50px;
-    color: #F8DEE9;
+    color: #4E4D4D;
 }
 
+.hamburger-dropdown li{
+    padding-left: 5px;
+}
+
+.hamburger-dropdown li:hover{
+    background: #FEEED0;
+}
+
+.hamburger-dropdown > li > a{
+    display: block;
+}
 
 header{
     background: #c72767;
@@ -192,12 +203,12 @@ h3{
 }
 
 .contact-section{
-    background: #fabc41;
+    background: #faf4e1;
     padding: 50px;
 }
 
 .contact-section h3{
-    color: #faf4e1;
+    color: #1F1E1C;
     font-size: 20px;
 }
 
@@ -218,21 +229,21 @@ h3{
 
 .social-links i{
     font-size: 20px;
-    color: #FCEEF4;
+    color: #1F1E1C;
 }
 
 .email{
     text-align: center;
     font-size: 16px;
     font-weight: 700;
-    color: #faf4e1;
+    color: #1F1E1C;
 }
 
 footer{
     background: #ec9454;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: #faf4e1;
     font-size: 10px;
 }
 
@@ -339,7 +350,6 @@ footer{
     }
 
     .contact-section h3{
-        color: #faf4e1;
         font-size: 40px;
     }
 
