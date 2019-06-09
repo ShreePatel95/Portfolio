@@ -73,9 +73,9 @@ body{
     display: inline;
 }
 
-.nav-hamburger-button:hover .hamburger-dropdown{
+/* .nav-hamburger-button:hover .hamburger-dropdown{
     display: block;
-}
+} */
 
 .hamburger-dropdown{
     display: none;
@@ -87,6 +87,7 @@ body{
     top: 50px;
     color: #F8DEE9;
 }
+
 
 header{
     background: #c72767;
