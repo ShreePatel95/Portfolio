@@ -84,8 +84,20 @@ body{
     border: 1px solid #faf4e1;
     padding: 10px;
     width: 200px;
-    top: 50px;
-    color: #4E4D4D;
+    top: 55px;
+    color:#4E4D4D;
+}
+
+.hamburger-dropdown:before{
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 0;
+    border-bottom: 10px solid #FDFBF2;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    height: 0;
 }
 
 .hamburger-dropdown li{
@@ -129,7 +141,8 @@ header{
 
 .fa-bars{
     color: #ECA7C4;
-    font-size: 20px;
+    font-size: 24px;
+    padding-bottom: 5px;
 }
 
 #aboutMe{
