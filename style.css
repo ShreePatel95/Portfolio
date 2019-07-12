@@ -216,8 +216,7 @@ h3{
 }
 
 .contact-section{
-    background: #faf4e1;
-    padding: 50px;
+    padding-bottom: 30px;
 }
 
 .contact-section h3{
@@ -227,7 +226,7 @@ h3{
 
 #contactMe{
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 
@@ -237,12 +236,14 @@ h3{
     justify-content: space-around;
     max-width: 900px;
     margin: 0 auto;
-    padding: 50px;
+    padding-top: 20px;
 }
 
 .social-links i{
     font-size: 20px;
     color: #1F1E1C;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 0px rgb(148, 147, 147);
 }
 
 .email{
@@ -253,10 +254,11 @@ h3{
 }
 
 footer{
-    background: #ec9454;
+    border-top: 1px solid rgb(224, 224, 224);
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #faf4e1;
+    /* color: #faf4e1; */
+    color: #1F1E1C;
     font-size: 10px;
 }
 
@@ -360,6 +362,7 @@ footer{
         grid-gap: 10px;
         grid-template-columns: 1fr 1fr;
         margin: 10px;
+        align-items: center;
     }
 
     .contact-section h3{
