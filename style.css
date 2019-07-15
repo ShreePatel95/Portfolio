@@ -80,7 +80,7 @@ body{
     top: 0;
     left: 0;
     background: linear-gradient(#2f1145 30%, #a04c8a);
-    border-right: 1px solid #584b5e;
+    box-shadow: 0 0 2px #584b5e;
     overflow-x: hidden;
     padding-top: 20px;
     transition: 0.5s; 
@@ -118,6 +118,11 @@ header{
     margin: 0;
     position: fixed;
     width: 100%;
+    transition: background .5s ease;
+}
+
+.header-background{
+    background: black;
 }
 #welcome-section{
     background: url('stars.jpg');

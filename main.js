@@ -9,3 +9,11 @@ hamburger.addEventListener("click", function(){
 close_button.addEventListener("click", function(){
     mobile_sidebar.style.width = "0px";
 });
+
+$(window).on('scroll', function(){
+    if($(window).scrollTop()){
+        $('header').addClass('header-background');
+    }else{
+        $('header').removeClass('header-background');
+    }
+})
