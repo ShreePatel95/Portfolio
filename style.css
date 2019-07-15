@@ -118,11 +118,11 @@ header{
     margin: 0;
     position: fixed;
     width: 100%;
-    transition: background .5s ease;
+    transition: background .6s linear;
 }
 
 .header-background{
-    background: black;
+    background: #2f1145;
 }
 #welcome-section{
     background: url('stars.jpg');
