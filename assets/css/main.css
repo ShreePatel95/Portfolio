@@ -3315,7 +3315,8 @@ input, select, textarea {
 
 	}
 
-.skills-container {
+.skills-container,
+.links-container {
 	list-style-type: none;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -3323,6 +3324,14 @@ input, select, textarea {
 	font-size: 20px;
 	grid-gap: 20px;
 	padding-top: 30px;
+}
+
+.icons a {
+	border: none;
+}
+
+.links-container a {
+	border: none;
 }
 
 .skills-container li{
@@ -3341,6 +3350,33 @@ input, select, textarea {
 	padding-bottom: 20px;
 }
 
-.skills-container li:hover{
+.skills-container li:hover,
+.links-container li:hover{
 	transform: scale(1.05);
+}
+
+.links-container {
+	padding-top: 50px;
+}
+
+.links-container li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: .2s;
+}
+
+.links-container i {
+	font-size: 70px;
+}
+
+.contact-me {
+	text-align: center;
+}
+
+.shree-email {
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
 }
